@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    background-color: #ec2F4B;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    font-size: 36px;
+    box-shadow: 1px -4px 20px 0px #333;
+    font-weight: bold;
+}
+
+.navButtons, .navButtonActive {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    width: 25%;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.navButtonActive {
+    width: unset;
+}
+
+.navButton:hover {
+    color: yellow;
+}
+
+.navButtonActive {
+    color: yellow;
+}
+
+.navButton {
+    color: black;
+    text-decoration: none;
+}

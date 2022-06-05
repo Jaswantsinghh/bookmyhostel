@@ -1,0 +1,25 @@
+.footer {
+    background: #009FFF;
+    box-shadow: 1px -4px 20px 0px #333;
+    padding: 20px 460px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.button, .alreadyButton {
+    padding: 20px;   
+    background: #f84464;
+    border-radius: 12px;
+    font-size: 32px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.alreadyButton {
+    background-color: lightgrey;
+    color: #333;
+    cursor: not-allowed;
+}
